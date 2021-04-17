@@ -44,23 +44,23 @@ header #logo{
 
 }
 
-header #menu{
+ .menu{
     flex: 1;
 }
 
-header #menu ul {
+ .menu ul {
     display: flex;
     justify-content: flex-end;
     list-style: none;
     padding: 0;
 }
 
-header #menu li {
+ .menu li {
     min-width: 100px;
     line-height: 80px;
 }
 
-header #menu a {
+ .menu a {
     
     color:white;
     text-decoration: none;
@@ -114,3 +114,42 @@ header #menu a {
     background-color:#065a12 ;
     color: #fff;
 }
+
+.container {
+    max-width: 960px;
+    margin: auto;
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.title h1 {
+    font-size: 3em;
+    border-bottom: #ccc 1px solid;
+    padding-bottom: 1rem;
+}
+.home p {
+    text-align: justify;
+}
+
+footer {
+    background-color: #f5f5f5;
+    color:#6c757d;
+    font-size: .8em;
+}
+
+footer p {
+    line-height: 35px;
+}
+
+footer .container{
+    display: flex;
+}
+
+footer .menu a {
+    color: #065a12;
+}
+.menu .open-menu {
+    display: none;
+}
+
