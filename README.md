@@ -1,4 +1,4 @@
-# businessWebpage
+#  Business Web page
 - A random non responsive web page
  
 ### Goal :
